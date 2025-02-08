@@ -93,7 +93,7 @@ int main()
                                   0x00,                 // wValue
                                   0x00,                 // wIndex
                                   ep0Buffer,            // Buffer to send or receive
-                                  sizeof(ep0Buffer),    // Always 16 bytes
+                                  sizeof(ep0Buffer),
                                   DEFAULT_USB_TIMEOUT);
     if (err < 0)
     {
@@ -112,7 +112,7 @@ int main()
                                   0x00,                 // wValue
                                   0x00,                 // wIndex
                                   ep0Buffer,            // Buffer to send or receive
-                                  sizeof(ep0Buffer),    // Always 16 bytes
+                                  sizeof(ep0Buffer),
                                   DEFAULT_USB_TIMEOUT);
     if (err < 0)
     {
