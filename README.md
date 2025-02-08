@@ -1,2 +1,2 @@
-# cypress-fx3-winusb-blank
-Cypress FX3 WinUSB compatible blank firmware
+# Cypress FX3 WinUSB compatible firmware
+You can use this code as a template to build your own WinUSB compatible project.
