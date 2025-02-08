@@ -234,7 +234,6 @@ CyBool_t CyFxUsbSetupCB(uint32_t setupdat0, uint32_t setupdat1)
             isHandled = CyTrue;
     }
 
-
     if ((bType == CY_U3P_USB_STANDARD_RQT)
             && (bTarget == CY_U3P_USB_TARGET_DEVICE)
             && (bDir != USB_REQUEST_DEVICE_TO_HOST))
